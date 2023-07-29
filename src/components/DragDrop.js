@@ -37,7 +37,7 @@ function DragDrop() {
       };
 
       const response = await axios.post(
-        `${process.env.REACT_APP_EXTRACT_LAMBDA_URL}`,
+        `${process.env.REACT_APP_EXTRACT_LAMBDA_URL}/extract`,
         requestData,
       );
 
